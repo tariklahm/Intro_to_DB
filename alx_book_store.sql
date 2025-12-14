@@ -1,4 +1,4 @@
-create database alx_book_store;
+create database if not exist alx_book_store;
 use alx_book_store;
 create table Authors (
             author_id int Primary Key, 
